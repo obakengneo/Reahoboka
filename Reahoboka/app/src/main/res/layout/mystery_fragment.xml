@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorAccent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="0.2dp"
+        android:paddingBottom="0.2dp"
+        android:background="@drawable/shadow"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="?attr/colorAccent"
+            android:layout_height="match_parent">
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView2"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center|center_horizontal|center_vertical"-->
+<!--                android:alpha="0.1"-->
+<!--                android:foregroundGravity="center_vertical|center|center_horizontal"-->
+<!--                android:paddingLeft="50dp"-->
+<!--                android:paddingTop="50dp"-->
+<!--                android:paddingRight="50dp"-->
+<!--                android:paddingBottom="50dp"-->
+<!--                android:tint="?attr/colorPrimaryDark1"-->
+<!--                app:srcCompat="@drawable/rosary" />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/mysteryNameHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="?attr/colorPrimaryDark1"
+                    android:layout_gravity="center_horizontal|center_vertical|center"
+                    android:textSize="19sp"
+                    android:layout_margin="20dp"
+                    android:text="Tataiso ya ho rapela rosari">
+                </TextView>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:orientation="vertical"
+                     android:layout_height="wrap_content">
+
+                     <TextView
+                         android:id="@+id/mysteryTop"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginStart="20dp"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginBottom="10dp"
+                         android:text="string/start"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:textSize="17sp">
+                     </TextView>
+
+                     <TextView
+                         android:id="@+id/mysteriName1"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginStart="20dp"
+                         android:layout_marginLeft="20dp"
+                         android:text="string/misteri1"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:textSize="17sp"
+                         android:textStyle="bold">
+                     </TextView>
+
+                     <TextView
+                         android:id="@+id/mysteryMiddle1"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginStart="20dp"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginBottom="10dp"
+                         android:text="string/mmele"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:textSize="17sp">
+                     </TextView>
+
+                     <TextView
+                         android:id="@+id/mysteriName2"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginStart="20dp"
+                         android:layout_marginLeft="20dp"
+                         android:text="string/misteri2"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:textSize="17sp"
+                         android:textStyle="bold">
+                     </TextView>
+
+                     <TextView
+                         android:id="@+id/mysteryMiddle2"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginStart="20dp"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginBottom="10dp"
+                         android:text="string/mmele"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:textSize="17sp">
+                     </TextView>
+
+                     <TextView
+                         android:id="@+id/mysteriName3"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginStart="20dp"
+                         android:layout_marginLeft="20dp"
+                         android:text="string/misteri3"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:textSize="17sp"
+                         android:textStyle="bold">
+                     </TextView>
+
+                     <TextView
+                         android:id="@+id/mysteryMiddle3"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginStart="20dp"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginBottom="10dp"
+                         android:text="string/mmele"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:textSize="17sp">
+                     </TextView>
+
+                     <TextView
+                         android:id="@+id/mysteriName4"
+                         android:layout_width="wrap_content"
+                         android:textSize="17sp"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:layout_height="wrap_content"
+                         android:textStyle="bold"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginStart="20dp"
+                         android:text="string/misteri4">
+                     </TextView>
+
+                     <TextView
+                         android:id="@+id/mysteryMiddle4"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginStart="20dp"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginBottom="10dp"
+                         android:text="string/mmele"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:textSize="17sp">
+                     </TextView>
+
+                     <TextView
+                         android:id="@+id/mysteriName5"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginStart="20dp"
+                         android:layout_marginLeft="20dp"
+                         android:text="string/misteri5"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:textSize="17sp"
+                         android:textStyle="bold">
+                     </TextView>
+
+                     <TextView
+                         android:id="@+id/mysteryMiddle5"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginStart="20dp"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginBottom="10dp"
+                         android:text="string/mmele"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:textSize="17sp">
+                     </TextView>
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:textSize="17sp"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:textStyle="bold"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginStart="20dp"
+                         android:layout_height="wrap_content"
+                         android:text="@string/oho_mofumahali">
+                     </TextView>
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:textSize="17sp"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginStart="20dp"
+                         android:layout_marginBottom="10dp"
+                         android:text="@string/middle">
+                     </TextView>
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:textSize="17sp"
+                         android:textStyle="bold"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:text="@string/a_re_rapeleng"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginStart="20dp">
+                     </TextView>
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:textSize="17sp"
+                         android:layout_height="wrap_content"
+                         android:textColor="?attr/colorPrimaryDark1"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginStart="20dp"
+                         android:layout_marginBottom="10dp"
+                         android:text="@string/finish">
+                     </TextView>
+                 </LinearLayout>
+            </ScrollView>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

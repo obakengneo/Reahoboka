@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/language"
+        android:title="@string/language"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"/>
+
+    <item
+        android:id="@+id/rate"
+        android:title="@string/rate_app"/>
+
+    <item
+        android:id="@+id/share"
+        android:title="@string/share_app"/>
+
+    <item
+        android:id="@+id/update"
+        android:title="@string/refresh_for_updates"/>
+
+<!--    <item-->
+<!--        android:id="@+id/logout"-->
+<!--        android:icon="@drawable/ic_logout"-->
+<!--        android:title="Logout"/>-->
+</menu>

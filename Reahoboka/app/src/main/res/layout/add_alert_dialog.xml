@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="com.google.android.material.BottomSheet">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:tint="?attr/colorPrimary"
+        android:src="@drawable/ic_drag_handle_black_24dp"
+        android:layout_gravity="center"
+
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="50dp"
+        android:id="@+id/leseliSheet1"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imgShare"
+            android:layout_width="wrap_content"
+            android:layout_weight="5"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:tint="?attr/colorPrimary"
+            android:background="@android:color/transparent"
+            android:src="@drawable/share">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/shareTo"
+            android:text="Share"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textColor="?attr/colorPrimaryDark1"
+            android:textSize="18sp"
+            android:textStyle="normal">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="50dp"
+        android:id="@+id/layoutAddToFavourites"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imgFavourites"
+            android:layout_width="wrap_content"
+            android:layout_weight="5"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:tint="?attr/colorPrimary"
+            android:background="@android:color/transparent"
+            android:src="@drawable/heart">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/addToFavourites"
+            android:text="Add to Favourites"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textColor="?attr/colorPrimaryDark1"
+            android:textSize="18sp"
+            android:textStyle="normal">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

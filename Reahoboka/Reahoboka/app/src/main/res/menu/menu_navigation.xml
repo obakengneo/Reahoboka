@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeFragment"
+        android:icon="@drawable/home_selector"
+        android:title="Home">
+    </item>
+
+    <item android:id="@+id/difelaFragment"
+        android:icon="@drawable/difela_selector"
+        android:title="Difela">
+    </item>
+
+    <item android:id="@+id/dithapeloFragment"
+        android:icon="@drawable/dithapelo_selector"
+        android:title="Dithapelo">
+    </item>
+
+    <item android:id="@+id/misteriFragment"
+        android:icon="@drawable/misteri_selector"
+        android:title="Rosary">
+    </item>
+
+    <item android:id="@+id/favouritesFragment"
+        android:icon="@drawable/favourites_selector"
+        android:title="Favourites">
+    </item>
+</menu>

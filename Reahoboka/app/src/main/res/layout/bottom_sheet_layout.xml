@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="com.google.android.material.BottomSheet">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:tint="@color/colorPrimary"
+        android:src="@drawable/ic_drag_handle_black_24dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="50dp"
+        android:id="@+id/leseliSheet"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_weight="5"
+            android:layout_height="30dp"
+            android:tint="?attr/colorPrimary"
+            android:background="@android:color/transparent"
+            android:src="@drawable/light">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/mysteryLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textColor="?attr/colorPrimaryDark1"
+            android:textSize="18sp"
+            android:textStyle="normal">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/thaboSheet"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_weight="5"
+            android:layout_height="30dp"
+            android:tint="?attr/colorPrimary"
+            android:src="@drawable/joy">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/mysteryJoy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textColor="?attr/colorPrimaryDark1"
+            android:textSize="18sp"
+            android:textStyle="normal">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mahlokoSheet"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="5"
+            android:tint="?attr/colorPrimary"
+            android:background="@android:color/transparent"
+            android:src="@drawable/sad">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/mysterySorrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textColor="?attr/colorPrimaryDark1"
+            android:textSize="18sp"
+            android:textStyle="normal">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="50dp"
+        android:id="@+id/letlotloSheet"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_weight="5"
+            android:tint="?attr/colorPrimary"
+            android:layout_height="30dp"
+            android:src="@drawable/crown">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/mysteryGlory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textColor="?attr/colorPrimaryDark1"
+            android:textSize="18sp"
+            android:textStyle="normal">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

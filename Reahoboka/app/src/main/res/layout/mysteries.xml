@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolBarDimisteri"
+        android:background="?attr/colorAccent">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="0.2dp"
+        android:background="@drawable/shadow">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="?attr/colorAccent"
+            android:layout_height="match_parent">
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageViewThapelo"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center|center_horizontal|center_vertical"-->
+<!--                android:alpha="0.1"-->
+<!--                android:foregroundGravity="center_vertical|center|center_horizontal"-->
+<!--                android:paddingLeft="50dp"-->
+<!--                android:paddingTop="50dp"-->
+<!--                android:paddingRight="50dp"-->
+<!--                android:paddingBottom="50dp"-->
+<!--                android:tint="?attr/colorPrimaryDark1"-->
+<!--                app:srcCompat="@drawable/rosary">-->
+<!--            </ImageView>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:scrollbars = "none"
+                    android:id="@+id/txtDisplayMystery"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:scrollbarAlwaysDrawVerticalTrack="false"
+                    android:textColor="?attr/colorPrimaryDark1"
+                    android:textSize="19sp">
+                </TextView>
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                android:paddingTop="0.2dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                android:background="@drawable/shadow">
+
+                <TextView
+                    android:id="@+id/txtNameMisteri"
+                    android:layout_width="match_parent"
+                    android:background="?attr/colorAccent"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

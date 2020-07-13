@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/layoutDifela"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="?attr/colorAccent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="0.2dp"
+        android:paddingBottom="0.2dp"
+        android:background="@drawable/shadow"
+        android:id="@+id/imageDifelaBackground"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/imageDifelaContainer"
+            android:layout_width="match_parent"
+            android:background="?attr/colorAccent"
+            android:layout_height="match_parent">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageDifela"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_gravity="center|center_horizontal|center_vertical"-->
+<!--            android:alpha="0.1"-->
+<!--            android:foregroundGravity="center_vertical|center|center_horizontal"-->
+<!--            android:paddingLeft="40dp"-->
+<!--            android:paddingTop="40dp"-->
+<!--            android:paddingRight="40dp"-->
+<!--            android:paddingBottom="40dp"-->
+<!--            android:tint="?attr/colorPrimaryDark1"-->
+<!--            app:srcCompat="@drawable/choir" />-->
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tint="?attr/colorPrimaryDark1"
+            android:divider="@android:color/transparent"
+            android:id="@+id/lstDifela">
+        </ListView>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

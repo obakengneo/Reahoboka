@@ -1,0 +1,263 @@
+<resources>
+    <string name="app_name">Binang le Rapele</string>
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+
+    <string name="about"><br>Ha ho rorisoe Jesu Kriste.\n\n</br>
+<br>Binang le Rapele is an app created for anyone on the go. 
+It has prayers, hymns, guide to praying the Holy Rosary
+and Mysteries of the Holy Rosary. These are all in the beautiful language of Sesotho. As someone that is always on the go, I decided to
+create an app that would assist people like me. Hopefully this app will help everyone that might need reference to a prayer
+    or hymn anywhere at any given time.\n\n</br>
+
+<br>Then Jesus told his disciples a parable to show them that they should always pray and not give up.\n</br> - Luke 18:1</string>
+
+    <string-array name="list">
+        <item>Difela</item>
+        <item>Dithapelo</item>
+    </string-array>
+
+    <string name="oho_mofumahali">Ahe Mofumahali - Dithapelo 12</string>
+    <string name="a_re_rapeleng">A re rapeleng (Rosary) - Dithapelo 56</string>
+
+    <string name="finish"><br> * Lithapelo tse ling\n</br>
+    <br>* Pontso ea Sefapano\n</br></string>
+
+    <string name="middle"><br> * U re rapelle Mme ea Halalelang oa Molimo\n</br>
+    <br>* Re tle re tsoaneloe ke lipallo tsa Jesu Kriste\n</br></string>
+
+    <string name="created_by_obakengneo">obakengneo</string>
+    <string name="misteri_tsa_mahloko">Misteri tsa Mahloko (Tue/Fri)</string>
+    <string name="misteri_tsa_leseli">Misteri tsa Leseli (Thu)</string>
+    <string name="misteri_tsa_thabo">Misteri tsa Thabo (Mon/Sat)</string>
+    <string name="misteri_tsa_letlotlo">Misteri tsa Letlotlo (Wed/Sun)</string>
+    <string name="misteri_oa_pele">Misteri Oa Pele</string>
+    <string name="misteri_oa_bobedi">Misteri Oa Bobedi</string>
+    <string name="misteri_oa_boraro">Misteri Oa Boraro</string>
+    <string name="misteri_oa_bone">Misteri Oa Bone</string>
+    <string name="misteri_oa_bohlano">Misteri Oa Bohlano</string>
+    <string name="enable_dark_mode">Enable Dark Mode</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="rate_app">Rate App</string>
+    <string name="share_app">Share App</string>
+    <string name="settings">Settings</string>
+    <string name="about_profile">About</string>
+    <string name="refresh_for_updates">Refresh for updates</string>
+    <string name="language">Language</string>
+
+    <!--    Mysteries Front pages-->
+    <string-array name="mysteriesGuideHeading">
+        <item>Tataiso ya ho rapela Rosari e Halalelang</item>
+        <item>Inkomba yokuthandaza iRosary eNgcwele</item>
+        <item>Tataiso ya go rapela Rosari e Halalelang</item>
+        <item>Isikhokelo somthandazo kwiRosari eNgcwele</item>
+        <item>Guide to pray the Holy Rosary</item>
+    </string-array>
+
+    <string-array name="mysteriesTop">
+        <item><br> * Pontso ea Sefapano\n</br>
+              <br>* Tumelo ya Baapostola\n</br>
+              <br>* Thapelo ea Morena\n</br>
+              <br>* Tumeliso ea Lenyeloi ×3\n</br>
+              <br>* Letlotlo\n</br></item>
+
+        <item><br> * Isibonakaliso Sesiphambano\n</br>
+              <br>* Umvumkholo wabaPhostoli\n</br>
+              <br>* Baba Wethu\n</br>
+              <br>* Yethi Maria ×3\n</br>
+              <br>* Udumo\n</br></item>
+
+        <item><br> * Ka Leina la Rara\n</br>
+              <br>* Boipolelo jwa Tumelo ya Bakeresete\n</br>
+              <br>* Rara wa rona yo o kwa legodimong\n</br>
+              <br>* Tumediso ya Moengele ×3\n</br>
+              <br>* Kgalalelo go Rara\n</br></item>
+
+        <item><br> * Egameni likaYise \n</br>
+              <br>* Isivumo sokholo sabaPhostile\n</br>
+              <br>* Bawo Wethu\n</br>
+              <br>* A Maria Ozele Lufefe ×3\n</br>
+              <br>* Udumiso malube kuYise\n</br></item>
+
+        <item><br> * The Sign of the Cross\n</br>
+              <br>* The Apostles Creed\n</br>
+              <br>* Our Father\n</br>
+              <br>* Hail Mary ×3\n</br>
+              <br>* Glory Be to the Father\n</br></item>
+    </string-array>
+
+    <string-array name="mysteriesDescriptionMiddle">
+        <item><br> * Thapelo ea Morena\n</br>
+              <br>* Tumeliso ea Lenyeloi ×10\n</br>
+              <br>* Letlotlo\n</br>
+              <br>* Oho Jesu oaka\n</br></item>
+
+        <item><br> * Baba Wethu\n</br>
+              <br>* Yethi Maria ×10\n</br>
+              <br>* Udumo\n</br>
+              <br>* O Jesu\n</br></item>
+
+        <item><br> * Rara wa rona yo o kwa legodimong\n</br>
+              <br>* Tumediso ya Moengele ×10\n</br>
+              <br>* Kgalalelo go Rara\n</br>
+              <br>* Oh Jeso\n</br></item>
+
+        <item><br> * Bawo Wethu\n</br>
+              <br>* A Maria Ozele Lufefe ×10\n</br>
+              <br>* Udumiso malube kuYise\n</br>
+              <br>* O Jesu\n</br></item>
+
+        <item><br> * Our Father\n</br>
+              <br>* Hail Mary ×10\n</br>
+              <br>* Glory Be to the Father\n</br>
+              <br>* Oh, My Jesus\n</br></item>
+    </string-array>
+
+<!--    Mystery Names-->
+    <string-array name="mysteriesSesotho">
+        <item>Misteri tsa Mahloko</item>
+        <item>Misteri tsa Leseli</item>
+        <item>Misteri tsa Thabo</item>
+        <item>Misteri tsa Letlotlo</item>
+    </string-array>
+
+    <string-array name="mysteriesIsiZulu">
+        <item>Izimfihlo zokuHlupheka</item>
+        <item>Izimfihlo zokuKhanya</item>
+        <item>Izimfihlo zokuJabula</item>
+        <item>Izimfihlo zoBukhosi</item>
+    </string-array>
+
+    <string-array name="mysteriesSetswana">
+        <item>Dikakanyo tsa Botlhoko</item>
+        <item>Dikakanyo tsa Lesedi</item>
+        <item>Dikakanyo tsa Boitumelo</item>
+        <item>DDikakanyo tsa Tlotlo</item>
+    </string-array>
+
+    <string-array name="mysteriesIsiXhosa">
+        <item>Iimfihlakalo zoSizi</item>
+        <item>Iimfihlakalo zoKhanyo</item>
+        <item>Iimfihlakalo zoVuyo</item>
+        <item>Iimfihlakalo zoZuko</item>
+    </string-array>
+
+    <string-array name="mysteriesEnglish">
+        <item>Sorrowful Mysteries</item>
+        <item>Luminous Mysteries</item>
+        <item>Joyful Mysteries</item>
+        <item>Glorious Mysteries</item>
+    </string-array>
+
+    <!--    Days-->
+    <string-array name="daysSesotho">
+        <item>Labobedi/Labohlano</item>
+        <item>Labone</item>
+        <item>Mantaha/Moqebelo</item>
+        <item>Laboraro/Sontaha</item>
+    </string-array>
+
+    <string-array name="daysIsiZulu">
+        <item>uLwesibili/uLwesihlanu</item>
+        <item>uLwesine</item>
+        <item>uMsombuluko/uMgqibelo</item>
+        <item>uLwesithathu/iSonto</item>
+    </string-array>
+
+    <string-array name="daysSetswana">
+        <item>Labobedi/Labotlhano</item>
+        <item>Labone</item>
+        <item>Mosupologo/Matlhatso</item>
+        <item>Laboraro/Tshipi</item>
+    </string-array>
+
+    <string-array name="daysIsiXhosa">
+        <item>uLwesibini/uLwesihlanu</item>
+        <item>uLwesine</item>
+        <item>uMvulo/Mgqibelo</item>
+        <item>uLwesithathu/iCawe</item>
+    </string-array>
+
+    <string-array name="daysEnglish">
+        <item>Tuesday/Friday</item>
+        <item>Thursday</item>
+        <item>Monday/Saturday</item>
+        <item>Wednesday/Sunday</item>
+    </string-array>
+<!--    NumbersMystery-->
+    <string-array name="numberSesotho">
+        <item>Misteri Oa Pele</item>
+        <item>Misteri Oa Bobedi</item>
+        <item>Misteri Oa Boraro</item>
+        <item>Misteri Oa Bone</item>
+        <item>Misteri Oa Bohlano</item>
+    </string-array>
+
+    <string-array name="numberIsiZulu">
+        <item>Imfihlo yokuqala</item>
+        <item>Imfihlo yesibili</item>
+        <item>Imfihlo yesithathu</item>
+        <item>Imfihlo yesine</item>
+        <item>Imfihlo yesihlanu</item>
+    </string-array>
+
+    <string-array name="numberSetswana">
+        <item>Kakanyo ya Ntlha</item>
+        <item>Kakanyo ya Bobedi</item>
+        <item>Kakanyo ya Boraro</item>
+        <item>Kakanyo ya Bone</item>
+        <item>Kakanyo ya Botlhano</item>
+    </string-array>
+
+    <string-array name="numberIsiXhosa">
+        <item>Imfihlakalo yokuqala</item>
+        <item>Imfihlakalo yesibini</item>
+        <item>Imfihlakalo yesithathu</item>
+        <item>Imfihlakalo yesine</item>
+        <item>Imfihlakalo yesihlanu</item>
+    </string-array>
+
+    <string-array name="numberEnglish">
+        <item>First Mystery</item>
+        <item>Second Mystery</item>
+        <item>Third Mystery</item>
+        <item>Fourth Mystery</item>
+        <item>Fifth Mystery</item>
+    </string-array>
+
+    <!--Hymn-->
+    <string-array name="hymn">
+        <item>Lifela</item>
+        <item>Amahubo</item>
+        <item>Difela</item>
+        <item>Amahubo</item>
+        <item>Hymns</item>
+    </string-array>
+
+    <!--Prayer-->
+    <string-array name="prayer">
+        <item>Lithapelo</item>
+        <item>Imikhuleko</item>
+        <item>Dithapelo</item>
+        <item>Imithandazo</item>
+        <item>Prayers</item>
+    </string-array>
+
+    <!--Rosary-->
+    <string-array name="rosary">
+        <item>Rosary</item>
+        <item>iRosary</item>
+        <item>Rosary</item>
+        <item>iRosary</item>
+        <item>Rosary</item>
+    </string-array>
+
+    <!--Scriptures-->
+    <string-array name="scripture">
+        <item><br>"Bolellanang ditshito tsa lona, mme le rapellane, le tle le fole. Thapelo ya ya lokileng e na le matla a maholo ho sebetseng ha yona."\n</br><br>\n Jakobo 5:16\n</br></item>
+        <item><br>"Ningakhathazeki ngalutho, kepha kukho konke izicelo zenu mazaziwe nguNkulunkulu ngokukhuleka nokunxusa kanye nokubonga."\n</br><br>\n KwabaseFilipi 4:6\n</br></item>
+        <item><br>"Jaanong go ka tweng? Ke tla rapela ka mowa, e bile ke tla rapela ka tlhaloganyo; ke tla opela ka mowa, mme le gona ke tla opela ka tlhaloganyo."\n</br><br>\n 1 Bakorinthe 14:15\n</br></item>
+        <item><br>"Ilizwi likaKristu malihlale ngaphakathi kwenu ngokobutyebi; nifundisana, nilulekana ngabo bonke ubulumko; nithi, ngeendumiso neengoma nezango ezizezomoya, nivume kamnandi entliziyweni yenu kuyo iNkosi."\n</br><br>\n KwabaseKolose 3:16\n</br></item>
+        <item><br>"And pray in the Spirit on all occasions with all kinds of prayers and requests. With this in mind, be alert and always keep on praying for all the Lord’s people."\n</br><br>\n Ephesians 6:18\n</br></item>
+    </string-array>
+</resources>

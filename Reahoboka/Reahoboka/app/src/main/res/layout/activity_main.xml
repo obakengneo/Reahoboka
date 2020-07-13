@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="?attr/colorAccent"
+    tools:context=".presentation.ActivityMain">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="end"
+        android:id="@+id/drawer"
+        android:background="?attr/colorAccent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolbar"
+            app:titleTextColor="?attr/colorPrimaryDark1"
+            android:background="?attr/colorAccent">
+
+        </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?attr/colorAccent"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        app:navGraph="@navigation/mobile_navigation"
+        app:defaultNavHost="true">
+    </fragment>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorAccent"
+        app:menu="@menu/menu_navigation"
+        app:itemTextColor="@drawable/bottom_navigation_colors"
+        app:labelVisibilityMode="unlabeled"
+        app:itemIconTint="@drawable/bottom_navigation_colors">
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        app:itemIconSize="20sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:focusable="true"
+        app:elevation="4dp"
+        app:menu="@menu/menu_item"
+        app:headerLayout="@layout/header_nav"
+        android:background="?attr/colorAccent"
+        android:layout_gravity="start"
+        app:itemTextColor="?attr/colorPrimaryDark1">
+    </com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>

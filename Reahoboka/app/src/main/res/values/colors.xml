@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Light Theme-->
+    <color name="colorPrimary">#039A8A</color>
+    <color name="colorPrimaryDark">@android:color/black</color>
+    <color name="colorAccent">@android:color/white</color>
+    <color name="shadowColor">#BDBDBD</color>
+    <color name="topColor">#8C8C8C</color>
+
+<!--    Dark Theme-->
+    <color name="darkColorPrimary">#039A8A</color>
+    <color name="darkColorPrimaryDark">@android:color/white</color>
+    <color name="darkColorAccent">@android:color/black</color>
+    <color name="darkShadowColor">#2A363C</color>
+</resources>

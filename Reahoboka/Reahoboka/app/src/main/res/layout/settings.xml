@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorAccent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/settings"
+        android:background="?attr/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:paddingTop="0dp"
+        android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:background="?attr/colorAccent"
+        android:elevation="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="?attr/colorAccent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:textColor="?attr/colorPrimaryDark1"
+                android:textStyle="bold"
+                android:text="@string/enable_dark_mode"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry">
+            </TextView>
+
+            <Switch
+                android:id="@+id/enableDark"
+                android:layout_width="match_parent"
+                android:textColor="?attr/colorPrimary"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/night_mode"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry">
+            </Switch>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

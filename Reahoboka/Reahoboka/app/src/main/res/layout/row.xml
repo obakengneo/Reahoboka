@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_margin="5dp"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"
+        android:orientation="vertical"
+        tools:ignore="RtlSymmetry"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtIndex"
+                android:textSize="18sp"
+                android:textColor="?attr/colorPrimaryDark1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hmfjtgujgfjgjg"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="?attr/colorPrimaryDark1"
+                android:textSize="18sp"
+                android:textStyle="normal">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtAlign"
+                android:textSize="18sp"
+                android:textColor="?attr/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtUncategorized"
+                android:text="IsiZulu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/topColor"
+                android:textSize="12sp"
+                android:textStyle="normal">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/layoutDithapelo"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="?attr/colorAccent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="0.2dp"
+        android:paddingBottom="0.2dp"
+        android:id="@+id/imageDithapeloBackground"
+        android:background="@drawable/shadow"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/imageDithapeloContainer"
+        android:layout_width="match_parent"
+        android:background="?attr/colorAccent"
+        android:layout_height="match_parent">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageDithapelo"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_gravity="center|center_horizontal|center_vertical"-->
+<!--            android:alpha="0.1"-->
+<!--            android:foregroundGravity="center_vertical|center|center_horizontal"-->
+<!--            android:paddingLeft="50dp"-->
+<!--            android:paddingTop="50dp"-->
+<!--            android:paddingRight="50dp"-->
+<!--            android:paddingBottom="50dp"-->
+<!--            android:tint="?attr/colorPrimaryDark1"-->
+<!--            app:srcCompat="@drawable/prayer">-->
+<!--        </ImageView>-->
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tint="?attr/colorPrimaryDark1"
+            android:divider="@android:color/transparent"
+            android:id="@+id/lstDithapelo">
+        </ListView>
+    </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
